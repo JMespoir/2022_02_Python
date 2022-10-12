@@ -16,5 +16,3 @@ def solve(n):
 
 N = int(input())
 print(solve(N))
-
-    
