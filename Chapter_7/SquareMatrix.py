@@ -13,10 +13,7 @@ def mult(b,m,k):
 def power(L,e,k):
     if(e==1):
         return L
-
     tmp = power(L,e//2,k)
-
-    
     if(e%2==0):
         return mult(tmp , tmp,k)
     else:
